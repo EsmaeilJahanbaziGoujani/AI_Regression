@@ -39,6 +39,7 @@ print("Mean Squared Error:", mse)  # Print MSE
 print("Predicted prices:", y_pred)  # Print predicted prices
 print("Actual prices:", y_test.values)  # Print actual prices
 
+
 # 1. Convert predicted values into a DataFrame (keep same index as X_test)
 predicted_df = pd.DataFrame({          # Create a new DataFrame for predicted values
     'Predicted Price': y_pred          # Name the column 'Predicted Price', values from model prediction
